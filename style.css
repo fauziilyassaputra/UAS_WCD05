@@ -29,16 +29,20 @@
 }
 
 .firstView span {
-  font-size: 1rem;
+  font-size: 2rem;
 }
+
+/* Halaman Favorit */
 
 .favoritPage {
   background-color: var(--warna-utama);
+  padding: 2rem;
 }
 
 .favoritPage h1 {
   font-size: 3rem;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .favoritMenuPage {
@@ -50,10 +54,16 @@
 .favoriteMenu {
   display: flex;
   flex-direction: column;
-
   flex-wrap: wrap;
   padding: 0.5rem;
   background-color: var(--warna-latar);
+}
+
+.favoriteMenu:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.4s ease;
+  background: rgba(240, 160, 75, 0.8);
 }
 
 .favoriteMenu img {
@@ -63,13 +73,61 @@
 
 .favoriteMenu h1 {
   font-size: 2rem;
-  font-weight: 500;
+
+  padding-bottom: 0;
 }
 
-.favoriteMenu span {
-  font-size: 1.3rem;
+/* Halaman Diskon */
+
+.discountPage {
+  padding: 2rem 10rem;
+  background-color: var(--warna-latar);
 }
 
-.favoriteMenu button {
-  background-color: var(--warna-sekunder);
+.discountPage h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 3rem;
+}
+.discountMenuPage {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2rem;
+}
+.discountMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.discountMenuImage {
+  position: relative;
+}
+
+.discountMenuImage img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.discountMenuImage p {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 0;
+  right: 0;
+  background-color: #f0a04b;
+  border-radius: 3rem;
+  padding: 0.5rem;
+}
+
+.discountMenuAbout {
+  padding: 0 1.5rem;
+}
+
+.discountMenuAbout h2 {
+  letter-spacing: 0.2rem;
+}
+
+.discountMenuAbout p {
+  font-size: 1.2rem;
+  line-height: 2.2rem;
 }
