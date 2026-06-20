@@ -1,0 +1,75 @@
+:root {
+  --warna-latar: #fce7c8; /* Krem muda */
+  --warna-utama: #b1c29e; /* Hijau Sage */
+  --warna-sekunder: #fada7a; /* Kuning Pastel */
+  --warna-aksen: #f0a04b; /* Oranye (Untuk Tombol/CTA) */
+
+  /* Tambahan warna gelap mandiri agar teks mudah dibaca */
+  --warna-teks: #212529;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.firstView {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--warna-latar);
+  color: var(--warna-teks);
+}
+
+.firstView h1 {
+  font-size: 6rem;
+  text-shadow: 3px 4px 2px var(--warna-utama);
+}
+
+.firstView span {
+  font-size: 1rem;
+}
+
+.favoritPage {
+  background-color: var(--warna-utama);
+}
+
+.favoritPage h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.favoritMenuPage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.favoriteMenu {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  background-color: var(--warna-latar);
+}
+
+.favoriteMenu img {
+  height: 15rem;
+  width: 15rem;
+}
+
+.favoriteMenu h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.favoriteMenu span {
+  font-size: 1.3rem;
+}
+
+.favoriteMenu button {
+  background-color: var(--warna-sekunder);
+}
