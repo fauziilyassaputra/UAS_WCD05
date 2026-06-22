@@ -63,7 +63,7 @@
   cursor: pointer;
   transform: scale(1.05);
   transition: transform 0.4s ease;
-  background: rgba(240, 160, 75, 0.8);
+  background-color: var(--warna-sekunder);
 }
 
 .favoriteMenu img {
@@ -121,6 +121,9 @@
 
 .discountMenuAbout {
   padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .discountMenuAbout h2 {
@@ -130,4 +133,55 @@
 .discountMenuAbout p {
   font-size: 1.2rem;
   line-height: 2.2rem;
+}
+
+.discountMenuAbout button {
+  width: 15rem;
+  padding: 0.3rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  background-color: var(--warna-aksen);
+}
+
+.discountMenuAbout button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: var(--warna-sekunder);
+}
+
+/* Halaman testimoni */
+
+.testimoniPage {
+  padding: 2rem;
+  background-color: var(--warna-utama);
+}
+
+.testimoniPage h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.testimoniCustomerPage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 1.5rem;
+}
+
+.testimoniCustomer {
+  display: flex;
+}
+
+.testimoniImage {
+  padding: 1rem;
+}
+.testimoniImage img {
+  width: 7rem;
+  border-radius: 50%;
+}
+.testimoniAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
