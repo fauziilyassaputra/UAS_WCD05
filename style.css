@@ -36,13 +36,13 @@
 
 .favoritPage {
   background-color: var(--warna-utama);
-  padding: 2rem;
+  padding: 4rem 2rem;
 }
 
 .favoritPage h1 {
   font-size: 3rem;
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .favoritMenuPage {
@@ -152,7 +152,7 @@
 /* Halaman testimoni */
 
 .testimoniPage {
-  padding: 2rem;
+  padding: 3rem 2rem;
   background-color: var(--warna-utama);
 }
 
@@ -166,7 +166,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .testimoniCustomer {
@@ -184,4 +184,107 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.testimoniAbout h2 {
+  letter-spacing: 0.2rem;
+  font-size: 1.3rem;
+}
+
+.testimoniAbout p {
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.testimoniAbout .star {
+  font-size: 1.3rem;
+}
+
+/* Halaman pencapaian */
+
+.trustPage {
+  background-color: var(--warna-latar);
+  padding: 3rem 2rem;
+}
+
+.trustPage h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.trustPageMenu {
+  display: flex;
+  flex-direction: column;
+}
+.AchivementPage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 0;
+}
+.AchivementPage h2 {
+  font-size: 2.5rem;
+}
+
+.AchivementPage p {
+  text-align: center;
+}
+
+.AchivementPage .porsi {
+}
+
+.AchivementPage .porsi h2 {
+}
+
+.AchivementPage .cabang h2 {
+}
+
+.sertificatePage {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+
+.sertificate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.sertificate img {
+  width: 10rem;
+  object-fit: cover;
+}
+
+/* Order page */
+.orderPage {
+  background-color: var(--warna-utama);
+  padding: 3rem 2rem;
+}
+
+.orderPage h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.buttonOrder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonOrder button {
+  margin: 1rem;
+  padding: 3rem 7rem;
+  font-size: 3rem;
+  border-radius: 5rem;
+  background-color: #f0a04b;
+  color: white;
+}
+
+.buttonOrder button:hover {
+  background-color: var(--warna-sekunder);
+  cursor: pointer;
 }
