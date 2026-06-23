@@ -1,0 +1,48 @@
+:root {
+  --warna-latar: #fce7c8; /* Krem muda */
+  --warna-utama: #b1c29e; /* Hijau Sage */
+  --warna-sekunder: #fada7a; /* Kuning Pastel */
+  --warna-aksen: #f0a04b; /* Oranye (Untuk Tombol/CTA) */
+
+  /* Tambahan warna gelap mandiri agar teks mudah dibaca */
+  --warna-teks: #212529;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+  padding: 1rem 1.2rem;
+}
+
+.orderPage {
+  padding: 2rem 4rem;
+  background-color: var();
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order img {
+  width: 5rem;
+}
