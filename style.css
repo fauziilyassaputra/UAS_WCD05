@@ -26,6 +26,9 @@ a {
   background-color: var(--warna-latar);
   color: var(--warna-teks);
 }
+img {
+  object-fit: contain;
+}
 
 .firstView h1 {
   font-size: 6rem;
@@ -76,9 +79,12 @@ a {
 }
 
 .favoriteMenu h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  padding-bottom: 0.5rem;
+}
 
-  padding-bottom: 0;
+.favoriteMenu span {
+  letter-spacing: 0.1rem;
 }
 
 /* Halaman Diskon */
@@ -132,6 +138,7 @@ a {
 
 .discountMenuAbout h2 {
   letter-spacing: 0.2rem;
+  font-size: 2rem;
 }
 
 .discountMenuAbout p {
@@ -262,6 +269,10 @@ a {
   object-fit: cover;
 }
 
+.sertificate p {
+  text-align: center;
+}
+
 /* Order page */
 .orderPage {
   background-color: var(--warna-utama);
@@ -281,7 +292,7 @@ a {
 
 .buttonOrder button {
   margin: 1rem;
-  padding: 3rem 7rem;
+  padding: 1rem 3rem;
   font-size: 3rem;
   border-radius: 5rem;
   background-color: #f0a04b;
