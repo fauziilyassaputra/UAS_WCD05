@@ -316,3 +316,263 @@ img {
   background-color: var(--warna-sekunder);
   cursor: pointer;
 }
+
+/* Mengubah sesuai layar */
+
+@media (max-width: 1024px) {
+  .firstView h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .firstView h1 {
+    font-size: 4rem;
+    text-shadow: 3px 4px 2px var(--warna-utama);
+  }
+
+  .firstView span {
+    font-size: 2rem;
+  }
+
+  /*  */
+
+  .favoritPage {
+    padding: 4rem 2rem;
+  }
+
+  .favoritPage h1 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .favoritMenuPage {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .favoriteMenu img {
+    height: 25rem;
+    width: 25rem;
+  }
+
+  .favoriteMenu h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .favoriteMenu span {
+    font-size: 1.5rem;
+  }
+
+  /*  */
+
+  .discountPage {
+    padding: 2rem 5rem;
+  }
+
+  .discountMenuAbout {
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .discountMenuAbout h2 {
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+  }
+
+  .discountMenuAbout button {
+    margin-top: 1rem;
+  }
+
+  /*  */
+
+  .testimoniPage h1 {
+    font-size: 2rem;
+  }
+
+  .testimoniImage {
+    padding: 0.5rem;
+  }
+  .testimoniImage img {
+    width: 5rem;
+    border-radius: 50%;
+  }
+
+  .testimoniAbout h2 {
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+  }
+
+  .testimoniAbout p {
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .testimoniAbout .star {
+    font-size: 1rem;
+  }
+
+  /*  */
+
+  .trustPage {
+    background-color: var(--warna-latar);
+    padding: 3rem 1rem;
+  }
+
+  .trustPage h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .trustPageMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .AchivementPage {
+    padding: 2rem 0;
+  }
+  .AchivementPage h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .sertificatePage {
+    padding: 2rem 0;
+  }
+
+  .sertificate img {
+    width: 7rem;
+  }
+
+  /*  */
+
+  .orderPage h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .buttonOrder button {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .firstView h1 {
+    font-size: 2rem;
+  }
+  .firstView span {
+    font-size: 1.5rem;
+  }
+
+  /*  */
+
+  .favoritPage {
+    padding: 3rem 1rem;
+  }
+
+  .favoritPage h1 {
+    font-size: 2.5rem;
+  }
+
+  .favoritMenuPage {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .favoriteMenu img {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .favoriteMenu h1 {
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+  }
+
+  .favoriteMenu span {
+    font-size: 1.2rem;
+  }
+
+  /*  */
+
+  .discountPage {
+    padding: 2rem 3rem;
+  }
+
+  .discountMenu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .discountMenuImage p {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 0;
+    right: 0;
+    background-color: #f0a04b;
+    border-radius: 2rem;
+    padding: 0 0.5rem;
+  }
+  .discountMenuAbout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .discountMenuAbout p {
+    text-align: center;
+  }
+  .discountMenuAbout h2 {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  /*  */
+
+  .testimoniCustomerPage {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /*  */
+
+  .trustPage h1 {
+    font-size: 2rem;
+  }
+  .trustPageMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .AchivementPage {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0;
+  }
+  .AchivementPage h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .sertificatePage {
+    padding: 2rem 0;
+    flex-direction: column;
+  }
+
+  .sertificate img {
+    width: 12rem;
+  }
+
+  /*  */
+
+  .orderPage h1 {
+    font-size: 1.2rem;
+  }
+
+  .buttonOrder button {
+    font-size: 1.5rem;
+  }
+}
