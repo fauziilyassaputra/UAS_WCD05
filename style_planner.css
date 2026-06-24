@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap");
 :root {
   --warna-latar: #fce7c8; /* Krem muda */
   --warna-utama: #b1c29e; /* Hijau Sage */
@@ -8,9 +9,21 @@
   --warna-teks: #212529;
 }
 
+/* style umum */
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Libre Baskerville", serif;
 }
 a {
   text-decoration: none;
@@ -27,22 +40,67 @@ td {
   border-collapse: collapse;
 }
 
-th {
+.tableOrder th {
   text-align: center;
   padding: 1rem 1.2rem;
 }
 
+img {
+  width: 5rem;
+  object-fit: cover;
+}
+
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* style per class */
+
 .orderPage {
-  padding: 2rem 4rem;
-  background-color: var();
+  background-color: var(--warna-latar);
+}
+
+.judulOrder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--warna-utama);
+  padding: 2rem;
+  border-bottom: 3px solid var(--warna-teks);
+}
+
+/* list menu order */
+
+.orderMenuPage {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  gap: 2rem;
 }
 
 .order {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.order img {
-  width: 5rem;
+/* Pesanan customer */
+
+.orderCustomerPage {
+}
+
+.orderCustomer {
+  background-color: var(--warna-sekunder);
+  padding: 1rem 1.5rem;
+  border: 3px solid var(--warna-aksen);
+  border-radius: 3rem;
+}
+
+.tableOrderCustomer {
+  font-size: 0.8rem;
+}
+
+.orderEmptyInfo {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: red;
 }

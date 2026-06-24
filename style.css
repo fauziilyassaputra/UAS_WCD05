@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap");
+
 :root {
   --warna-latar: #fce7c8; /* Krem muda */
   --warna-utama: #b1c29e; /* Hijau Sage */
@@ -12,6 +14,17 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Libre Baskerville", serif;
+}
+
 a {
   text-decoration: none;
   color: inherit;
