@@ -62,12 +62,28 @@ ul li {
 }
 
 .judulOrder {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--warna-utama);
   padding: 2rem 0;
   border-bottom: 3px solid var(--warna-teks);
+}
+.judulOrder a{
+  position: absolute;
+  left: 1rem;
+  top: 5;
+  font-size: 1.5rem;
+  background-color:var(--warna-aksen);
+  padding: 0.3rem 1rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+}
+.judulOrder a:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  background-color:var(--warna-sekunder);
 }
 
 /* list menu order */
