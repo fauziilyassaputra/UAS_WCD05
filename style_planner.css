@@ -100,21 +100,76 @@ ul li {
 /* Pesanan yang dipilih */
 
 .orderCustomerPage {
+  padding: 1rem 0;
+  width: 100%;
+  display: flex;
+  background-color: var(--warna-utama);
 }
 
 .orderCustomerChecklist {
+  display: flex;
+  padding: 1rem;
+  flex: 1;
+  flex-direction: column;
+}
+.orderCustomerChecklist h2 {
+  margin-bottom: 1rem;
 }
 
 .orderCustomerChecklistItem {
+  background-color: var(--warna-sekunder);
+  border-radius: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  height: 100%;
+  border: 5px solid var(--warna-aksen);
 }
 
 .orderItem {
+  width: fit-content;
 }
+
+.orderItem p {
+  font-size: 0.6rem;
+}
+
 .orderCustomerInformation {
+  display: flex;
+  flex: 1;
+  padding: 1rem 2rem;
+  justify-content: space-around;
 }
 .orderSum {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 0;
 }
+
+.orderSum p {
+  background-color: var(--warna-sekunder);
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  width: 13rem;
+  border: 5px solid var(--warna-aksen);
+}
+
 .orderStandarOperasional {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.orderStandarOperasional ul li {
+  padding: 0.2rem 0;
+}
+
+.orderEmpty {
+  color: red;
 }
 
 @media (max-width: 1020px) {
