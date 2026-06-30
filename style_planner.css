@@ -92,7 +92,8 @@ ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 0;
+  padding-top: 1rem;
+  background-color: var(--warna-latar);
 }
 
 .order {
@@ -135,7 +136,7 @@ ul li {
 .orderCustomerChecklistItem {
   background-color: var(--warna-sekunder);
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 1rem 0;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -188,5 +189,45 @@ ul li {
   color: red;
 }
 
+.judulDaftarPesanan {
+  margin: 1.5rem 0;
+}
+
 @media (max-width: 1020px) {
+  .orderSum {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .orderEmpty {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  img {
+    width: 3rem;
+    object-fit: cover;
+  }
+  .tableOrder th {
+    padding: 1rem 0;
+  }
+  .orderCustomerPage {
+    flex-direction: column;
+  }
+  .orderCustomerInformation {
+    flex-direction: column;
+  }
+  .judulOrder a {
+    left: 0;
+    top: 0;
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+  }
 }
