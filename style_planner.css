@@ -70,20 +70,20 @@ ul li {
   padding: 2rem 0;
   border-bottom: 3px solid var(--warna-teks);
 }
-.judulOrder a{
+.judulOrder a {
   position: absolute;
   left: 1rem;
   top: 5;
   font-size: 1.5rem;
-  background-color:var(--warna-aksen);
+  background-color: var(--warna-aksen);
   padding: 0.3rem 1rem;
   border: 2px solid black;
   border-radius: 2rem;
 }
-.judulOrder a:hover{
+.judulOrder a:hover {
   cursor: pointer;
   opacity: 0.8;
-  background-color:var(--warna-sekunder);
+  background-color: var(--warna-sekunder);
 }
 
 /* list menu order */
